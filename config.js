@@ -25,6 +25,7 @@ System.config({
       "backbone": "npm:backbone@1.1.2",
       "backbone.babysitter": "npm:backbone.babysitter@0.1.6",
       "backbone.wreqr": "npm:backbone.wreqr@1.3.1",
+      "jquery": "npm:jquery@2.1.3",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "underscore": "npm:underscore@1.6.0"
     },
@@ -34,7 +35,6 @@ System.config({
       "underscore": "npm:underscore@1.6.0"
     },
     "npm:backbone@1.1.2": {
-      "process": "github:jspm/nodelibs-process@0.1.1",
       "underscore": "npm:underscore@1.6.0"
     },
     "npm:jquery@2.1.3": {
