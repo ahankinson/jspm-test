@@ -7,7 +7,12 @@
   <script src="jspm_packages/system.js"></script>
   <script src="config.js"></script>
   <script>
-    System.import('main');
+    System.import('backbone').then(function(Backbone)
+    {
+        console.log(Backbone);
+        Backbone.$ = System.import('jquery');
+        System.import('main');
+    });
   </script>
 </body>
 </html>

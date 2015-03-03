@@ -7,7 +7,10 @@ System.config({
   },
   "shim": {
     "npm:backbone@1.1.2": {
-      "deps": ["jquery", "underscore"]
+      "deps": [
+        "jquery",
+        "underscore"
+      ]
     }
   }
 });
